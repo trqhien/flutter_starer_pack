@@ -16,10 +16,10 @@ dependencies:
   rxdart: ^0.27.1
   flare_flutter: ^3.0.2
   utils_kit:
-    path: ../utils_kit
-    # git:
-    #   url: https://github.com/bizz84/codewithandrea_flutter_packages
-    #   path: packages/alert_dialogs
+    # path: ../utils_kit
+    git:
+      url: https://github.com/trqhien/flutter_starer_pack.git
+      path: packages/utils_kit
 
 dev_dependencies:
   flutter_test:

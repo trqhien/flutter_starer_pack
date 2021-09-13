@@ -264,9 +264,11 @@ packages:
   utils_kit:
     dependency: "direct main"
     description:
-      path: "../utils_kit"
-      relative: true
-    source: path
+      path: "packages/utils_kit"
+      ref: HEAD
+      resolved-ref: "3f92046e51ad5aeb61cced8c9a92d33da9fc3397"
+      url: "https://github.com/trqhien/flutter_starer_pack.git"
+    source: git
     version: "0.0.1"
   vector_math:
     dependency: transitive
