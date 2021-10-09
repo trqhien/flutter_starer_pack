@@ -1,5 +1,4 @@
 
-import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 import 'package:widget_kit/text_styles/HMTextStyles.dart';
 import 'package:widget_kit/texts/HMText.dart';
@@ -107,7 +106,18 @@ class _HMButtonState extends State<HMButton> {
               ),
               child: widget.status != HMButtonType.loading
                 ? content
-                : FlareActor('images/loading.flr', animation: "Untitled"),
+                : Center(
+                    child: Container(
+                      width: 20,
+                      height: 20,
+                      child: Theme(
+                        data: Theme.of(context),
+                        child: CircularProgressIndicator(
+                          strokeWidth: 4,
+                        ),
+                      ),
+                    ),
+                  ),
             ),
           ),
           decoration: BoxDecoration(
