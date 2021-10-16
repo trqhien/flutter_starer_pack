@@ -32,6 +32,7 @@ class HMTextField extends StatefulWidget {
   final Function? onTap;
   final TextInputAction textInputAction;
   final Widget? rightWidget;
+  final bool isEditable;
 
   final List<StreamTransformer<String, String>> validatorStreams;
 
@@ -58,7 +59,8 @@ class HMTextField extends StatefulWidget {
     this.onTap,
     this.textInputAction = TextInputAction.done,
     this.rightWidget,
-    this.validatorStreams = const []
+    this.validatorStreams = const [],
+    this.isEditable = true,
   });
 
   @override
@@ -259,6 +261,7 @@ class _HMTextFieldState extends State<HMTextField> {
                             focusNode: _focusNode,
                             onChanged: widget.onChanged,
                             onSubmitted: widget.onSubmitted,
+                            readOnly: !widget.isEditable,
                           ),
                         ),
                       ],
