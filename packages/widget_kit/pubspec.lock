@@ -136,14 +136,14 @@ packages:
       name: path_provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.3"
+    version: "2.0.4"
   path_provider_linux:
     dependency: transitive
     description:
       name: path_provider_linux
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.1.0"
   path_provider_macos:
     dependency: transitive
     description:
@@ -185,7 +185,7 @@ packages:
       name: plugin_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.1"
+    version: "2.0.2"
   process:
     dependency: transitive
     description:
@@ -259,7 +259,7 @@ packages:
     description:
       path: "packages/utils_kit"
       ref: HEAD
-      resolved-ref: "3f92046e51ad5aeb61cced8c9a92d33da9fc3397"
+      resolved-ref: bb069d9ed71b330941090978b9bea2b9e3c6239d
       url: "https://github.com/trqhien/flutter_starer_pack.git"
     source: git
     version: "0.0.1"

@@ -54,8 +54,6 @@ class _HMButtonState extends State<HMButton> {
         );
 
     Widget child = Container(
-      // color: widget.isWhiteBackground ? Colors.white : Colors.transparent,
-      //color: Colors.blue,
       padding: EdgeInsets.all(widget.havePadding ? 16 : 0),
       child: TextButton(
         onPressed: widget.status == HMButtonType.enable 
